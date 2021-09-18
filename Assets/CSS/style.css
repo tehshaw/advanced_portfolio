@@ -14,6 +14,7 @@ body{
     margin: 0;
     padding: 0;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-weight: bold;
 }
 
 
@@ -94,14 +95,49 @@ nav a:hover{
         background-color: var(--second);
         flex-basis: 100%;
         text-align: center;
-
+        font-size: 8vw;
     }
 
     nav {
         text-align: center;
+        font-size: 2.5vw;
+        line-height: 150%;
+    }
+    .hero{
+        height: 275px;
     }
 
-    .hero{
-        height: 200px;
+    .hero p{
+        font-size: 4.5vw;
     }
+
+
+}
+
+@media screen and (max-width: 503px) {
+    header{
+        flex-direction: row;
+    }
+
+    header h1{
+        display: none;
+    }
+
+    nav{
+        flex-basis: 100%;
+        font-size: 5vw;
+        padding: 15px;
+    }
+    .hero{
+        height: 325px;
+    }
+
+    .hero p{
+        right: 20%;
+        font-size: 7vw;
+    }
+
+
+
+
 }
