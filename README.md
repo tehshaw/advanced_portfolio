@@ -9,5 +9,5 @@
 
 ### Screenshot
 
-Markup : ![picture alt]( "Title is optional")
+ ![picture alt](https://raw.githubusercontent.com/tehshaw/advanced_portfolio/main/Assets/Images/sample.PNG "Title is optional")
 
