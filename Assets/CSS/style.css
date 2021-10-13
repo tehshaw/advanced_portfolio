@@ -190,6 +190,10 @@ will rever to line with spacing when small res screen */
     color: var(--third);
 }
 
+.contact a:visited{
+    color: var(--third);
+}
+
 #main-project{
     width: 100%;
 }
